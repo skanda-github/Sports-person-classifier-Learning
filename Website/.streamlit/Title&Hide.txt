@@ -1,0 +1,14 @@
+# ---- Title & Icon ----
+st.set_page_config(page_title = "MultiPage", page_icon = ":globe_with_meridians:")
+
+# ---- HIDE STREAMLIT STYLE ----
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+https://www.webfx.com/tools/emoji-cheat-sheet/
